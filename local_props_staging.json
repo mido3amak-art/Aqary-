@@ -1,0 +1,32 @@
+[
+  {
+    "area": "Downtown",
+    "district": "A",
+    "info": "2 rooms, 100 sqm",
+    "views": 0,
+    "images": []
+  },
+  {
+    "area": "Downtown",
+    "district": "B",
+    "info": "3 rooms, 150 sqm",
+    "views": 0,
+    "images": []
+  },
+  {
+    "area": "Suburbs",
+    "district": "C",
+    "info": "Villa, 300 sqm",
+    "views": 0,
+    "images": []
+  },
+  {
+    "area": "fff",
+    "district": "",
+    "info": "",
+    "views": 0,
+    "images": [
+      "/storage/emulated/0/Download/0544597a-900d-4257-88a6-96b963bfdddc.png"
+    ]
+  }
+]
