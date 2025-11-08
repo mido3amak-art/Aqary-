@@ -1,0 +1,20 @@
+[app]
+title = Aqary
+package.name = aqary
+package.domain = org.mido3amak
+source.dir = .
+source.include_exts = py,png,jpg,kv,atlas
+icon.filename = icon.png
+version = 1.0
+android.permissions = INTERNET, WRITE_EXTERNAL_STORAGE, READ_EXTERNAL_STORAGE
+requirements = python3,kivy
+orientation = portrait
+fullscreen = 1
+android.archive_name = AqaryApp
+android.api = 33
+android.minapi = 21
+android.sdk = 33
+android.ndk = 25b
+android.ndk_api = 21
+log_level = 2
+android.presplash_color = #000000
