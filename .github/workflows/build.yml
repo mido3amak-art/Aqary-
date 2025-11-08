@@ -31,6 +31,11 @@ jobs:
         build-tools: 36.1.0
         accept-licenses: true
 
+    - name: Export Android paths
+      run: |
+        export ANDROID_HOME=$HOME/Android/Sdk
+        export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/36.1.0:$PATH
+
     - name: Build APK
       run: |
         buildozer android debug
@@ -40,3 +45,4 @@ jobs:
       with:
         name: AqarApp
         path: bin/*.apk
+        
